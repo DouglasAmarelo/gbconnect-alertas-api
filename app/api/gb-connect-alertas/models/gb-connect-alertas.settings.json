@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "gb_connect_alertas",
+  "info": {
+    "name": "gb-connect-alertas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "personCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.person-card"
+    }
+  }
+}

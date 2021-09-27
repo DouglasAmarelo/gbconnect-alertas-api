@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_date_lists",
+  "info": {
+    "name": "dateList",
+    "icon": "calendar-alt"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    }
+  }
+}

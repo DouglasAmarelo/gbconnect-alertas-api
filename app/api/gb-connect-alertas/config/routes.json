@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gb-connect-alertas",
+      "handler": "gb-connect-alertas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gb-connect-alertas",
+      "handler": "gb-connect-alertas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gb-connect-alertas",
+      "handler": "gb-connect-alertas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
